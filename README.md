@@ -1,6 +1,6 @@
-# Turniej 
+# Turniej piłkarski
 
-> Aplikacja pozwala przeprowadzić turniej (fazę grupową i turniejową) dla 32 drużyn.
+> Aplikacja pozwala przeprowadzić turniej piłkarski(fazę grupową i turniejową) dla 32 drużyn.
 
 ## Spis treści
 
