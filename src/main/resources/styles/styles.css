@@ -1,0 +1,12 @@
+.table-view .table-column {
+    -fx-alignment: CENTER;
+}
+
+.table-row-cell {
+    -fx-font-size: 27px;
+}
+
+.button {
+    -fx-border-color: gray;
+    -fx-border-width: 2;
+}

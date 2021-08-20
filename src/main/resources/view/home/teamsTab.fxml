@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Tab text="Teams" fx:id="matchesTab" fx:controller="view.home.controller.TeamsTabController" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <TableView layoutX="-5.0" layoutY="-6.0" prefHeight="499.0" prefWidth="1568.0" fx:id="teamsTable"></TableView>
+</Tab>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane minHeight="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="view.home.addTeams.controller.AddTeamsController">
+    <center>
+        <VBox>
+            <ScrollPane maxHeight="335.0" maxWidth="-Infinity" minWidth="-Infinity" prefHeight="335.0"
+                        prefWidth="866.0">
+                <VBox fx:id="teamsList">
+                    <fx:include source="addTeamInputs.fxml"/>
+                </VBox>
+            </ScrollPane>
+            <Button alignment="CENTER" mnemonicParsing="false" text="+" translateX="400.0"
+                    onAction="#addAnotherTeamInputs">
+                <font>
+                    <Font size="21.0"/>
+                </font>
+            </Button>
+        </VBox>
+    </center>
+    <bottom>
+        <ToolBar prefHeight="40.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <Button mnemonicParsing="false" text="Add all teams" onAction="#addAllTeams"/>
+        </ToolBar>
+    </bottom>
+</BorderPane>

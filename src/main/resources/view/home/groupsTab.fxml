@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<Tab text="Groups"
+     xmlns:fx="http://javafx.com/fxml"
+     fx:controller="view.home.controller.GroupsTabController">
+    <content>
+        <TilePane>
+            <children>
+                <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="370.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="A" textAlignment="CENTER" textOrigin="CENTER"
+                              wrappingWidth="375.4970703125">
+                            <font>
+                                <Font size="29.0"/>
+                            </font>
+                        </Text>
+                        <TableView fx:id="aGroupTable"></TableView>
+                    </children>
+                </VBox>
+                <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="370.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="B" textAlignment="CENTER" textOrigin="CENTER"
+                              wrappingWidth="375.4970703125">
+                            <font>
+                                <Font size="29.0"/>
+                            </font>
+                        </Text>
+                        <TableView fx:id="bGroupTable"></TableView>
+                    </children>
+                </VBox>
+                <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="370.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="C" textAlignment="CENTER" textOrigin="CENTER"
+                              wrappingWidth="375.4970703125">
+                            <font>
+                                <Font size="29.0"/>
+                            </font>
+                        </Text>
+                        <TableView fx:id="cGroupTable"></TableView>
+                    </children>
+                </VBox>
+                <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="370.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="D" textAlignment="CENTER" textOrigin="CENTER"
+                              wrappingWidth="375.4970703125">
+                            <font>
+                                <Font size="29.0"/>
+                            </font>
+                        </Text>
+                        <TableView fx:id="dGroupTable"></TableView>
+                    </children>
+                </VBox>
+                <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="370.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="E" textAlignment="CENTER" textOrigin="CENTER"
+                              wrappingWidth="375.4970703125">
+                            <font>
+                                <Font size="29.0"/>
+                            </font>
+                        </Text>
+                        <TableView fx:id="eGroupTable"></TableView>
+                    </children>
+                </VBox>
+                <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="370.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="F" textAlignment="CENTER" textOrigin="CENTER"
+                              wrappingWidth="375.4970703125">
+                            <font>
+                                <Font size="29.0"/>
+                            </font>
+                        </Text>
+                        <TableView fx:id="fGroupTable"></TableView>
+                    </children>
+                </VBox>
+                <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="370.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="G" textAlignment="CENTER" textOrigin="CENTER"
+                              wrappingWidth="375.4970703125">
+                            <font>
+                                <Font size="29.0"/>
+                            </font>
+                        </Text>
+                        <TableView fx:id="gGroupTable"></TableView>
+                    </children>
+                </VBox>
+                <VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="370.0">
+                    <children>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="H" textAlignment="CENTER" textOrigin="CENTER"
+                              wrappingWidth="375.4970703125">
+                            <font>
+                                <Font size="29.0"/>
+                            </font>
+                        </Text>
+                        <TableView fx:id="hGroupTable"></TableView>
+                    </children>
+                </VBox>
+            </children>
+        </TilePane>
+    </content>
+</Tab>

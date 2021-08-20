@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox alignment="CENTER" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="view.home.controller.MatchResultController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+   </padding>
+   <Label fx:id="teamsPlayingLabel">
+      <font>
+         <Font size="30.0"/>
+      </font>
+   </Label>
+   <HBox fx:id="inputsHBox">
+      <TextField fx:id="goalsTeam1input" prefHeight="25.0" prefWidth="40.0" translateY="10">
+         <HBox.margin>
+            <Insets left="10.0" right="10.0"/>
+         </HBox.margin>
+      </TextField>
+      <Label text=":">
+         <font>
+            <Font size="30.0"/>
+         </font>
+      </Label>
+      <TextField fx:id="goalsTeam2input" layoutX="-1.0" prefHeight="25.0" prefWidth="40.0" translateY="10">
+         <HBox.margin>
+            <Insets left="10.0" right="10.0"/>
+         </HBox.margin>
+      </TextField>
+      <Button alignment="CENTER" mnemonicParsing="false" fx:id="submitMatchButton" prefHeight="32.0" prefWidth="120.0"
+              text="Add result" textAlignment="CENTER" translateY="5.0">
+         <font>
+            <Font size="16.0"/>
+         </font>
+      </Button>
+   </HBox>
+</HBox>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+<Tab text="Matches" fx:id="matchesTab" fx:controller="view.home.controller.MatchesTabController" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+    <VBox>
+        <TableView layoutX="-5.0" layoutY="-6.0" prefHeight="499.0" prefWidth="1568.0" fx:id="matchesTable"></TableView>
+        <fx:include source="matchResult.fxml"/>
+    </VBox>
+</Tab>
+

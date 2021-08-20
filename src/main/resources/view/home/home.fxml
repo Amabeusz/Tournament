@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="200.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.home.controller.HomeController">
+    <center>
+      <TabPane maxHeight="600.0" maxWidth="1500.0" minHeight="600.0" minWidth="1500.0" tabClosingPolicy="UNAVAILABLE" BorderPane.alignment="CENTER">
+        <tabs>
+           <fx:include source="finalsTreeTab.fxml" />
+            <fx:include source="groupsTab.fxml" />
+            <fx:include source="matchesTab.fxml" />
+            <fx:include source="teamsTab.fxml" />
+        </tabs>
+      </TabPane>
+    </center>
+    <bottom>
+        <Button fx:id="addTeamButton" mnemonicParsing="false" text="Add Team" BorderPane.alignment="CENTER">
+            <font>
+                <Font size="20.0" />
+            </font>
+         <BorderPane.margin>
+            <Insets bottom="20.0" />
+         </BorderPane.margin>
+        </Button>
+    </bottom>
+</BorderPane>
